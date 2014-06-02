@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Guessing Game</title>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+		<link type="text/css" rel="stylesheet" href="css/main.css"/>
+	</head>
+
+
+	
+	<!--copy code from w3 resource--> 
+	<body>
+
+		<div class="navbar navbar-fixed-top">  
+  		<div class="navbar-inner">  
+    		<div class="container">  
+    <!--navigation does here-->  
+    		<a class="brand" href="#">Kittitat Rodchaidee Guessing Game</a>
+    		</div>  
+  		</div>  
+	</div>   
+
+
+		<h1>This is the guessing game</h1>
+
+		<input type="text" name="guessing" id="inputGuess">
+		<h2 id="helperText">Please enter in your guess</h2>
+		<button class="btn btn-warning dropdown-toggle"onclick="guess()">
+			Guess the number</button>
+
+		<button class="btn btn-warning dropdown-toggle"onclick="reset()">Play again</button>
+		<button class="btn btn-warning dropdown-toggle"onclick="giveup()">Give up</button>
+		<h2 id="numberText">You have 5 guesses left</h2>
+		<h2>Here are all the numbers you guessed so far.</h2>
+		<h3 id="oldNumber"><h3>
+
+		<script src="js/guess.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</body>
+</html>
